@@ -1,0 +1,12 @@
+# Rust build output
+/target/
+
+# work directory
+/work/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Others
+.DS_Store

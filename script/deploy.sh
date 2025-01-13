@@ -3,7 +3,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # configuration
 MODULE_NAME="recent"
-RELEASE_DIR=/Users/keiichi/home/bin
+RELEASE_DIR=/usr/local/bin
 
 # build
 (cd ${SCRIPT_DIR}/.. && cargo build --release)

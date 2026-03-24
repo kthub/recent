@@ -13,10 +13,12 @@ Arguments:
   [Target Directory]  File search root. Default: current directory
 
 Options:
-  -v, --verbose  Verbose output
+  -v, --verbose  Verbose output (show top-level entry with last modified file)
   -h, --help     Print help
   -V, --version  Print version
 ```
+
+Directories such as `.git`, `node_modules`, `target`, `vendor`, etc. and `.DS_Store` files are automatically excluded from the scan.
 
 ## Support this Project
 

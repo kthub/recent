@@ -9,4 +9,4 @@ RELEASE_DIR=/usr/local/bin
 (cd ${SCRIPT_DIR}/.. && cargo build --release)
 
 # deploy
-sudo cp -p ${SCRIPT_DIR}/../target/release/$MODULE_NAME $RELEASE_DIR
+cp -p ${SCRIPT_DIR}/../target/release/$MODULE_NAME $RELEASE_DIR
